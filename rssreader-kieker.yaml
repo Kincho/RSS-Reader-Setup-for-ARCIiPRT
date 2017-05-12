@@ -92,7 +92,7 @@ spec:
     spec:
       containers:
       - name: middletier
-        image: hora/recipes-rss-middletier-kieker:0.4
+        image: vogelsn/middle-kieker
         imagePullPolicy: Always
         ports:
         - containerPort: 9191
@@ -136,7 +136,7 @@ spec:
     spec:
       containers:
       - name: edge
-        image: hora/recipes-rss-edge-kieker:0.4
+        image: vogelsn/edge-kieker
         imagePullPolicy: Always
         ports:
         - containerPort: 9090
